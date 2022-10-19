@@ -1,13 +1,11 @@
 <article>
-  
 <%= link_to product_path(product) do %>
     <%= image_tag product.image.thumb.url , alt: product.name %>
     <h1>
       <span><%= product.name %></span>
       <span><%= humanized_money_with_symbol product.price %></span>
     </h1>
-  <% end%>
-  
+  <% end%>  
   <% if product.quantity == 0 %>
     <div>
     <button class="soldout">Sold Out</button>
