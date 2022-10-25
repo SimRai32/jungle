@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe Product, type: :model do
   describe 'Validations' do
     context "given all fields" do
-      it "saves the product" do
+      xit "saves the product" do
         @category = Category.new(:name => "flowers")
         @category.save
         @category = Category.all
@@ -15,7 +15,7 @@ RSpec.describe Product, type: :model do
       end
     end
     context "not given name" do
-      it "should not save" do
+      xit "should not save" do
         @category = Category.new(:name => "flowers")
         @category.save
         @category = Category.all
@@ -27,7 +27,7 @@ RSpec.describe Product, type: :model do
       end
     end
     context "not given price" do
-      it "should not save" do
+      xit "should not save" do
         @category = Category.new(:name => "flowers")
         @category.save
         @category = Category.all
@@ -39,7 +39,7 @@ RSpec.describe Product, type: :model do
       end
     end
     context "not given quantity" do
-      it "should not save" do
+      xit "should not save" do
         @category = Category.new(:name => "flowers")
         @category.save
         @category = Category.all
@@ -51,7 +51,7 @@ RSpec.describe Product, type: :model do
       end
     end
     context "not given category" do
-      it "should not save" do
+      xit "should not save" do
         fields = {:name => "Daisy", :price => "$5.99", :quantity =>"12"}
         @product = Product.new(fields)
         @product.save
