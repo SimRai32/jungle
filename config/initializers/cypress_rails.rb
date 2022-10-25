@@ -14,7 +14,7 @@ CypressRails.hooks.before_server_start do
     quantity: 0,
     price: 64.99
   })
-  puts "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+  
   cat1.products.create!({
     name:  'Scented Blade',
     description: "
