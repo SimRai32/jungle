@@ -29,3 +29,16 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+## Changes Made
+-Added a sold out badge for products out of stock
+-Added a feature that allows admin to create categories
+-Improved user authentication
+-Order details page has more information included
+-A few bugs fixed
+
+## Screenshots
+
+!["A gif of the add feature"](https://github.com/SimRai32/scheduler2/blob/master/docs/Add.gif?raw=true)
+!["A gif of the edit feature"](https://github.com/SimRai32/scheduler2/blob/master/docs/Edit.gif?raw=true)
+!["A gif of the delete feature"](https://github.com/SimRai32/scheduler2/blob/master/docs/Delete.gif?raw=true)
