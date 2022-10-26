@@ -31,6 +31,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Stripe
 
 ## Changes Made
+
 -Added a sold out badge for products out of stock
 -Added a feature that allows admin to create categories
 -Improved user authentication
