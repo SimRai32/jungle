@@ -39,6 +39,6 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Screenshots
 
-!["A gif of the add feature"](https://github.com/SimRai32/scheduler2/blob/master/docs/Add.gif?raw=true)
-!["A gif of the edit feature"](https://github.com/SimRai32/scheduler2/blob/master/docs/Edit.gif?raw=true)
-!["A gif of the delete feature"](https://github.com/SimRai32/scheduler2/blob/master/docs/Delete.gif?raw=true)
+!["A picture of the sold out badge"](https://github.com/SimRai32/jungle/blob/master/docs/soldOutBadge.png?raw=true)
+!["A gif of the create category feature"](https://github.com/SimRai32/jungle/blob/master/docs/createCategory.gif?raw=true)
+!["A gif of the user auth improvement"](https://github.com/SimRai32/jungle/blob/master/docs/userAuth.gif?raw=true)
